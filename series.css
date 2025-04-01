@@ -1,0 +1,39 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(netflix-animated-movies.jpg);
+    background-attachment: fixed;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    
+}
+.images{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.images div > img{
+    width: 18rem;
+    height: 20rem;
+    border-radius: 3px;
+    margin-left: 2rem;
+    box-shadow: 2PX 2PX 5px black;
+}
+p{
+
+        padding-top:13rem;
+        padding-left: 5rem;
+    }
+    .images > div{
+        border-radius: 10px;
+        margin-top: 3rem;
+        margin-left: 5rem;
+        width: 19.5rem;
+    }
+    div > a{
+        padding-left: 4rem;
+    }

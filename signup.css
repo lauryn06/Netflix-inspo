@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+ h1{
+    color: red;
+    font-style:normal;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size:3rem;
+}
+body{
+    background-image: url(netflix-animated-movies.jpg);
+    background-attachment: fixed;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    
+}
+p{
+
+    padding-top:13rem;
+    padding-left: 5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    color: white;
+    padding-top:1rem ;
+}
+input{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: white;
+    font-weight: 300;
+    font-size: large;
+    width: 20rem;
+    height: 3rem;
+    border: 1px dotted;
+    border-radius: 2px;
+    padding-left: 1rem;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.653);
+}
+button{
+margin-top: 1rem;
+margin-left: 7rem;
+background-color: red;
+border-radius: 2px;
+width: 9rem;
+height: 3rem;
+border: 1px ;
+margin-top: 20px;
+margin-right:100px;
+color: white;
+font-size: large;
+font-style: normal;
+font-weight: 700;
+}
+a{
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+    color: red;
+    padding-right: 3rem;
+    padding-top: 5rem;
+}
+.topp{
+    display: flex;
+    justify-content: space-between;
+}
